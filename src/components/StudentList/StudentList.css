@@ -1,0 +1,51 @@
+.student-list-container {
+    margin-top: 20px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    padding: 16px;
+    border: 1px solid #e1e1e1;
+  }
+
+  .student-list-title {
+    font-size: 18px;
+    margin: 0 0 16px 0;
+    color: #222222;
+  }
+
+  .student-table-container {
+    overflow-x: auto;
+  }
+
+  .student-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+  }
+
+  .student-table th,
+  .student-table td {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #e1e1e1;
+  }
+
+  .student-table th {
+    background-color: #ffffff;
+    font-weight: 500;
+    color: #555;
+  }
+
+  .student-table tr:last-child td {
+    border-bottom: none;
+  }
+
+  .student-message {
+    color: #717171;
+    font-style: italic;
+    margin-top: 16px;
+  }
+
+  .student-error {
+    color: #ff5a5f;
+    margin-top: 16px;
+  }

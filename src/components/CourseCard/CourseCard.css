@@ -1,0 +1,86 @@
+.course-card {
+    border: 1px solid #e1e1e1;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    background-color: white;
+  }
+
+  /* Styling for unpublished courses */
+  .course-card.unpublished {
+    background-color: #f9f9f9;
+    opacity: 0.7;
+    border: 1px dashed #ccc;
+  }
+
+  .course-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    gap: 16px;
+  }
+
+  .course-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 4px;
+    object-fit: cover;
+  }
+
+  .course-info {
+    flex: 1;
+  }
+
+  .course-title {
+    margin-top: 0;
+    margin-bottom: 8px;
+    color: #222222;
+    font-size: 20px;
+  }
+
+  .course-heading {
+    color: #717171;
+    margin: 0;
+    font-size: 14px;
+  }
+
+  .unpublished-badge {
+    display: inline-block;
+    margin-left: 8px;
+    padding: 2px 6px;
+    background-color: #aaa;
+    color: white;
+    font-size: 11px;
+    border-radius: 4px;
+    font-weight: normal;
+    vertical-align: middle;
+
+  }
+
+  .view-students-button {
+    background-color: #ff5a5f;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 16px;
+  }
+
+  .unpublished-button {
+    pointer-events: none;
+  }
+
+  .view-students-button:hover {
+    background-color: #ff3a3f;
+  }
+
+  .view-students-button.active {
+    background-color: #484848;
+  }
+
+  .view-students-button.active:hover {
+    background-color: #333333;
+  }
